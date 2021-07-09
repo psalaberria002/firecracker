@@ -61,7 +61,7 @@ curl -L ${release_url}/download/${latest}/firecracker-${latest}-${arch}.tgz \
 Rename the binary to "firecracker":
 
 ```console
-mv firecracker-${latest}-$(uname -m) firecracker
+mv release-${latest} firecracker
 ```
 
 If, instead, you'd like to build Firecracker yourself, you should check out
